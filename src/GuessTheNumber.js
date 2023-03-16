@@ -70,7 +70,7 @@ function GuessTheNumber() {
   return (
     <div className="guessNumberContainer">
       <div className="container">
-        <p>{random}</p>
+      
         <p ref={congratulation} className="congratulation">
           Congratulation! You won !
         </p>
